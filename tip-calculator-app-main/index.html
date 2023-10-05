@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="calculatorContainer">
+    <div id="optionsContainer">
+      <h1 class="title">Bill</h1>
+      <div id="billAmountContainer">
+        <img src="images/icon-dollar.svg" class="icon" alt="">
+        <input type="number" id="billAmount" placeholder="Place Amount" min="0">
+      </div>
+      
+      <h1 class="title">Select Tip %</h1>
+      <div id="selectTip">
+        <button id="fivePercent">5%</button>
+        <button id="tenPercent">10%</button>
+        <button id="fifteenPercent">15%</button>
+        <button id="twentyfivePercent">25%</button>
+        <button id="fiftyPercent">50%</button>
+        <input type="number" id="customPercent" placeholder="Custom" min="0">
+      </div>
+  
+      <h1 class="title">Number of People</h1>
+      <div id="peopleAmountContainer">
+        <img src="images/icon-person.svg" class="icon" alt="">
+        <input type="number" id="peopleAmount" placeholder="#" min="1">
+      </div>
+  </div>
+    <div id="totalAmount">
+        <h1>Tip Amount</h1>
+        <p>/ person</p>
+        <h2 id="tipAmountPer"></h2>
+        
+        <h1>Total</h1>
+        <p>/ person</p>
+        <h2 id="totalAmountPer"></h2>
+      
+        <button id="calculateButton">Calculate!</button>
+    </div>
+  </div>
+  <!-- <div>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+<script src="script.js"></script>
+
+</html>

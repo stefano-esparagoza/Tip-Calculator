@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+html {
+    background-color: hsl(185, 41%, 84%)
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.calculatorContainer {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 550px;
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 2.5%;
+    margin-left: 5%;
+}
+
+#billAmountContainer {
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background-color: hsl(189, 41%, 97%);
+    height: 10%;
+    border-radius: 20px;
+}
+
+#billAmountContainer p {
+    padding-left: 5%;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#billAmountContainer input {
+    background-color:rgba(255, 255, 255, 0);
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    font-size: 25px;
+    border: 0px;
+    width: 50%;
+    text-align: right;
+}
+
+#selectTip {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(255,255, 255, 1);
+    width: 40%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+}
+
+#selectTip button {
+    width: 30%;
+    height: 5vh;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: hsl(189, 41%, 97%);
+}
+
+#selectTip button:hover {
+    background-color: hsl(172, 67%, 45%);
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: hsl(183, 100%, 15%);
+}
+
+#selectTip input {
+    width: 29.5%;
+    height: 5vh;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 10px;
+    background-color: hsl(189, 41%, 97%);
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+#peopleAmountContainer {
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background-color: hsl(189, 41%, 97%);
+    height: 5%;
+    border-radius: 20px;
+    margin-bottom: 10px
+}
+
+#peopleAmount {
+    background-color:rgba(255, 255, 255, 0);
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    font-size: 25px;
+    border: 0px;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.icon {
+    width: 5%;
+    height: 5%;
+    padding-left: 3%;
+    margin: 15px;
+}
+
+#totalAmount {
+    position: absolute;
+    left: 50%;
+    top: 2.5%;
+    width: 35%;
+    height: 52.5%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+}
+
+#totalAmount h2 {
+    position:absolute;
+    bottom: auto;
+    margin: 0;
+    color: hsl(172, 67%, 45%);
+    width: 25%;
+    left: 75%;
+}
+
+#totalAmount h1 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 2%;
+    margin-left: 7.5%;
+}
+
+#totalAmount p {
+    color: hsl(186, 14%, 43%);
+    margin: 0;
+    margin-left: 10%;
+    padding-bottom: 10%;
+}
+
+#totalAmount button {
+    position: absolute;
+    width: 80%;
+    height: 5vh;
+    background-color: hsl(186, 14%, 43%);
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 10%;
+    bottom: 10%;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: hsl(189, 41%, 97%);
+}
+
+#totalAmount button:hover {
+    position: absolute;
+    width: 80%;
+    height: 5vh;
+    background-color: hsl(185, 41%, 84%);
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 10%;
+    bottom: 10%;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: hsl(183, 100%, 15%);
+}
